@@ -18,25 +18,26 @@ const Home = async () => {
     orderBy: {
       name: "desc",
     },
-});
-  return(
+  });
+  return (
     <main>
-       <Header />
-       <PageContainer>
-          <SearchInput />
-          <Image 
-          src={banner} 
-          alt="Agende Agora!" 
-          sizes="100vw" 
-          className="h-auto w-full"/>
-          
-         <PageSection>
+      <Header />
+      <PageContainer>
+        <SearchInput />
+        <Image
+          src={banner}
+          alt="Agende agora!"
+          sizes="100vw"
+          className="h-auto w-full"
+        />
+        <PageSection>
           <PageSectionTitle>Agendamentos</PageSectionTitle>
           <BookingItem
             serviceName="Corte de cabelo"
             barbershopName="Barbearia do João"
             barbershopImageUrl="https://utfs.io/f/c97a2dc9-cf62-468b-a851-bfd2bdde775f-16p.png"
             date={new Date()}
+            status="confirmed"
           />
         </PageSection>
 
@@ -48,8 +49,8 @@ const Home = async () => {
             ))}
           </PageSectionScroller>
         </PageSection>
-        
-         <PageSection>
+
+        <PageSection>
           <PageSectionTitle>Populares</PageSectionTitle>
           <PageSectionScroller>
             {popularBarbershops.map((barbershop) => (
@@ -61,6 +62,6 @@ const Home = async () => {
       <Footer />
     </main>
   );
-}
+};
 
 export default Home;
