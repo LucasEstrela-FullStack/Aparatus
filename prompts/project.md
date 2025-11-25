@@ -32,3 +32,9 @@ Tecnologias utilizadas:
 - **SEMPRE** Use o hook "useAction" da biblioteca "next-safe-action" para chamar uma Server Action.
 - **SEMPRE** use a Server Action @app/\_actions/create-booking.ts como base para criar as suas.
 - **SEMPRE** faça validações de autorização e autenticação em uma Server Action conforme o usuário.
+- **SEMPRE** crie as server actions na pasta @app/\_actions.
+
+## shadcn/ui
+
+- AO criar sheets, **NUNCA** crie manualmnete o botão de fechar, o próprio Sheet do shadcn já tem um.
+- Ao criar sheets, **NUNCA** crie o separator entre o header e o conteúdo manualmente, o próprio SheetHeader já tem um border-bottom.

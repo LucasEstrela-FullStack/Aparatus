@@ -4,7 +4,7 @@ import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import Header from "../_components/header";
 import Footer from "../_components/footer";
-import { PageContainer, PageSection, PageSectionTitle} from "../_components/ui/page";
+import { PageContainer, PageSection, PageSectionTitle } from "../_components/ui/page";
 import BookingItem from "../_components/booking-item";
 
 const BookingsPage = async () => {
@@ -50,14 +50,7 @@ const BookingsPage = async () => {
             <PageSectionTitle>Confirmados</PageSectionTitle>
             <div className="space-y-3">
               {confirmedBookings.map((booking) => (
-                <BookingItem
-                  key={booking.id}
-                  serviceName={booking.service.name}
-                  barbershopName={booking.barbershop.name}
-                  barbershopImageUrl={booking.barbershop.imageUrl}
-                  date={new Date(booking.date)}
-                  status="confirmed"
-                />
+                <BookingItem key={booking.id} booking={booking} />
               ))}
             </div>
           </PageSection>
@@ -68,14 +61,7 @@ const BookingsPage = async () => {
             <PageSectionTitle>Finalizados</PageSectionTitle>
             <div className="space-y-3">
               {finishedBookings.map((booking) => (
-                <BookingItem
-                  key={booking.id}
-                  serviceName={booking.service.name}
-                  barbershopName={booking.barbershop.name}
-                  barbershopImageUrl={booking.barbershop.imageUrl}
-                  date={new Date(booking.date)}
-                  status="finished"
-                />
+                <BookingItem key={booking.id} booking={booking} />
               ))}
             </div>
           </PageSection>
