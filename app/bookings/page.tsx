@@ -4,7 +4,7 @@ import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import Header from "../_components/header";
 import Footer from "../_components/footer";
-import { PageContainer, PageSection, PageSectionTitle } from "../_components/ui/page";
+import { PageContainer, PageSection,PageSectionTitle } from "../_components/ui/page";
 import BookingItem from "../_components/booking-item";
 
 const BookingsPage = async () => {
