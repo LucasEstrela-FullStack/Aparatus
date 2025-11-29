@@ -1,12 +1,7 @@
 "use client";
 
 import { authClient } from "@/lib/auth-client";
-import {
-  CalendarDaysIcon,
-  HomeIcon,
-  LogInIcon,
-  LogOutIcon,
-} from "lucide-react";
+import { CalendarDaysIcon, HomeIcon, LogInIcon,LogOutIcon } from "lucide-react";
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { Button } from "./ui/button";
@@ -91,42 +86,42 @@ const SidebarMenu = () => {
 
       {/* Category Buttons */}
       <div className="flex flex-col gap-1">
-        <Button
-          variant="ghost"
-          className="h-10 w-full cursor-default justify-start rounded-full px-5 py-3 hover:bg-transparent"
-        >
-          <span className="text-sm font-medium">Cabelo</span>
-        </Button>
-        <Button
-          variant="ghost"
+        <Link
+          href="/barbershops?search=barba"
           className="h-10 w-full cursor-default justify-start rounded-full px-5 py-3 hover:bg-transparent"
         >
           <span className="text-sm font-medium">Barba</span>
-        </Button>
-        <Button
-          variant="ghost"
+        </Link>
+        <Link
+          href="/barbershops?search=cabelo"
+          className="h-10 w-full cursor-default justify-start rounded-full px-5 py-3 hover:bg-transparent"
+        >
+          <span className="text-sm font-medium">Cabelo</span>
+        </Link>
+        <Link
+          href="/barbershops?search=acabamento"
           className="h-10 w-full cursor-default justify-start rounded-full px-5 py-3 hover:bg-transparent"
         >
           <span className="text-sm font-medium">Acabamento</span>
-        </Button>
-        <Button
-          variant="ghost"
+        </Link>
+        <Link
+          href="/barbershops?search=sobrancelha"
           className="h-10 w-full cursor-default justify-start rounded-full px-5 py-3 hover:bg-transparent"
         >
-          <span className="text-sm font-medium">Sombrancelha</span>
-        </Button>
-        <Button
-          variant="ghost"
+          <span className="text-sm font-medium">Sobrancelha</span>
+        </Link>
+        <Link
+          href="/barbershops?search=pézinho"
           className="h-10 w-full cursor-default justify-start rounded-full px-5 py-3 hover:bg-transparent"
         >
-          <span className="text-sm font-medium">Massagem</span>
-        </Button>
-        <Button
-          variant="ghost"
+          <span className="text-sm font-medium">Pézinho</span>
+        </Link>
+        <Link
+          href="/barbershops?search=progressiva"
           className="h-10 w-full cursor-default justify-start rounded-full px-5 py-3 hover:bg-transparent"
         >
-          <span className="text-sm font-medium">Hidratação</span>
-        </Button>
+          <span className="text-sm font-medium">Progressiva</span>
+        </Link>
       </div>
 
       <Separator />

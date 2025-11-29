@@ -6,6 +6,7 @@ import { prisma } from "@/lib/prisma";
 import BarbershopItem from "./_components/barbershop-item";
 import Footer from "./_components/footer";
 import { PageContainer, PageSection, PageSectionScroller, PageSectionTitle } from "./_components/ui/page";
+import QuickSearchButtons from "./_components/quick-search-buttons";
 
 const Home = async () => {
   const recommendedBarbershops = await prisma.barbershop.findMany({
@@ -29,6 +30,8 @@ const Home = async () => {
           sizes="100vw"
           className="h-auto w-full"
         />
+
+        <QuickSearchButtons />
 
         <PageSection>
           <PageSectionTitle>Recomendados</PageSectionTitle>
