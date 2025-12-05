@@ -1,19 +1,19 @@
-# Aparatus
+# Aparatus ✂️💈
 
 Aparatus é uma plataforma moderna para agendamento de serviços em barbearias, desenvolvida com foco em escalabilidade, experiência do usuário e facilidade de manutenção. Este projeto utiliza as melhores práticas do ecossistema React/Next.js, integra autenticação robusta e oferece uma interface fiel ao design do Figma.
 
-## Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
-- **Next.js 16 (App Router)**: Estrutura principal do frontend, com roteamento moderno e server components.
-- **React 19**: Componentização, hooks e interatividade.
-- **TypeScript**: Tipagem estática para maior segurança e produtividade.
-- **Prisma ORM**: Modelagem e acesso eficiente ao banco de dados Postgres.
-- **Postgres**: Banco de dados relacional robusto e escalável.
-- **shadcn/ui**: Biblioteca de componentes UI acessíveis e customizáveis.
-- **Tailwind CSS**: Estilização utilitária, usando apenas cores do tema definidas em `globals.css`.
-- **BetterAuth**: Solução de autenticação segura e flexível.
+- **Next.js 16 (App Router)** ⚡
+- **React 19** ⚛️
+- **TypeScript** 🟦
+- **Prisma ORM** 🛢️
+- **Postgres** 🗄️
+- **shadcn/ui** 🧩
+- **Tailwind CSS** 🎨
+- **BetterAuth** 🔒
 
-## Estrutura do Projeto
+## 🗂️ Estrutura do Projeto
 
 ```
 ├── app/
@@ -33,22 +33,22 @@ Aparatus é uma plataforma moderna para agendamento de serviços em barbearias, 
 ├── tsconfig.json         # Configuração TypeScript
 ```
 
-## Principais Fluxos
+## 🔄 Principais Fluxos
 
-- **Agendamento de Serviço**: Usuário seleciona serviço, data e horário, visualiza informações detalhadas e confirma reserva.
-- **Autenticação**: Login seguro via BetterAuth, com integração ao backend.
-- **Listagem de Barbearias e Serviços**: Exibição dinâmica, com componentes otimizados e responsivos.
+- **Agendamento de Serviço**: Usuário seleciona serviço, data e horário, visualiza informações detalhadas e confirma reserva. 📅⏰
+- **Autenticação**: Login seguro via BetterAuth, com integração ao backend. 🔑
+- **Listagem de Barbearias e Serviços**: Exibição dinâmica, com componentes otimizados e responsivos. 🏪💇‍♂️
 
-## Padrões e Boas Práticas
+## 🏆 Padrões e Boas Práticas
 
-- Componentização máxima: todo código repetido vira componente ou utilitário.
-- UI fiel ao Figma: todos detalhes visuais seguem o design original.
-- Cores: apenas variáveis do tema em `globals.css`, nunca hard-coded.
-- Scroll horizontal: sempre oculta barra de scroll visual.
-- Header/Footer: sempre usando componentes dedicados, nunca criados manualmente.
-- Documentação e prompts: requisitos e decisões técnicas registrados em `prompts/`.
+- Componentização máxima: todo código repetido vira componente ou utilitário. 🧱
+- UI fiel ao Figma: todos detalhes visuais seguem o design original. 🎯
+- Cores: apenas variáveis do tema em `globals.css`, nunca hard-coded. 🌈
+- Scroll horizontal: sempre oculta barra de scroll visual. ↔️
+- Header/Footer: sempre usando componentes dedicados, nunca criados manualmente. 🏷️
+- Documentação e prompts: requisitos e decisões técnicas registrados em `prompts/`. 📚
 
-## Como Rodar Localmente
+## 🛠️ Como Rodar Localmente
 
 1. Instale as dependências:
    ```cmd
@@ -64,18 +64,18 @@ Aparatus é uma plataforma moderna para agendamento de serviços em barbearias, 
    ```cmd
    npm run dev
    ```
-5. Acesse `http://localhost:3000` no navegador.
+5. Acesse `http://localhost:3000` no navegador. 🌐
 
-## Contribuição
+## 🤝 Contribuição
 
 - Siga os padrões de componentes e estilos definidos.
 - Sempre consulte os arquivos em `prompts/` para requisitos e decisões de arquitetura.
 - Pull requests devem ser claros, testados e documentados.
 
-## Licença
+## 📄 Licença
 
 Este projeto está sob licença MIT.
 
 ---
 
-> Para dúvidas, sugestões ou contribuições, abra uma issue ou envie um pull request.
+> Para dúvidas, sugestões ou contribuições, abra uma issue ou envie um pull request. 💬
