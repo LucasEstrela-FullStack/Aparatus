@@ -1,3 +1,7 @@
+<img width="347" height="694" alt="image" src="https://github.com/user-attachments/assets/d9d8b345-03ed-41df-b75b-7e25b8256b9b" />
+<img width="391" height="707" alt="image" src="https://github.com/user-attachments/assets/4a58a621-2258-47be-adc2-f50e381a0cd7" />
+<img width="383" height="703" alt="image" src="https://github.com/user-attachments/assets/a4cc619e-3aa0-46de-a82f-6e1be91fa937" />
+
 # Aparatus ✂️💈
 
 Aparatus é uma plataforma moderna para agendamento de serviços em barbearias, desenvolvida com foco em escalabilidade, experiência do usuário e facilidade de manutenção. Este projeto utiliza as melhores práticas do ecossistema React/Next.js, integra autenticação robusta e oferece uma interface fiel ao design do Figma.
@@ -71,11 +75,3 @@ Aparatus é uma plataforma moderna para agendamento de serviços em barbearias, 
 - Siga os padrões de componentes e estilos definidos.
 - Sempre consulte os arquivos em `prompts/` para requisitos e decisões de arquitetura.
 - Pull requests devem ser claros, testados e documentados.
-
-## 📄 Licença
-
-Este projeto está sob licença MIT.
-
----
-
-> Para dúvidas, sugestões ou contribuições, abra uma issue ou envie um pull request. 💬
