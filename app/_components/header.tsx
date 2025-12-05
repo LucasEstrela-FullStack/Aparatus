@@ -6,6 +6,7 @@ import { MenuIcon, MessageCircleIcon } from "lucide-react";
 import { Sheet, SheetContent, SheetHeader,SheetTitle, SheetTrigger } from "./ui/sheet";
 import SidebarMenu from "./sidebar-menu";
 import Link from "next/link";
+import { ThemeToggle } from "./theme-toggle";
 
 const Header = () => {
   return (
